@@ -16,11 +16,16 @@ Versions
 ---------------
 [Node.JS versions currently provided are](https://hub.docker.com/r/ryanj/centos7-s2i-nodejs/tags/):
 
-* `6.3.1` `current`
+* `7.4.0` `current`
+* `6.3.1`
+* `6.9.4` `lts`
 * `5.12.0`
-* `4.4.7` `lts`
-* `0.12.15`
-* `0.10.46`
+* `6.9.4`
+* `4.4.2`
+* `5.12.0`
+* `4.7.2`
+* `5.12.0`
+* `5.12.0`
 
 Usage
 ---------------------------------

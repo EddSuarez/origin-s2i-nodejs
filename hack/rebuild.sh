@@ -21,7 +21,7 @@ if [ "${LAST_RELEASES}" != "${LATEST_RELEASES}" ] ; then
   for release in $NUMS ; do
     last="$( echo ${LAST_RELEASES} | cut -d' ' -f$release )"
     latest="$( echo ${LATEST_RELEASES} | cut -d' ' -f$release )"
-    if [ $last != $latest ] ; then
+    if [ ${last} != ${latest} ] ; then
       echo "Updating v$last to v$latest"
       for file in $LAST_UPDATES_NEEDED ; do
         sed -i $file -e "s/${last}/${latest}/g"
